@@ -9,6 +9,13 @@
     <name>petclinic</name>
     <packaging>war</packaging>
 
+    <repositories>
+        <repository>
+        <id>Barclays maven proxy</id>
+        <url>https://ibnexus04.barcapint.com/repository/maven-central/</url>
+        </repository>
+    </repositories>
+
     <properties>
 
         <!-- Generic properties -->
