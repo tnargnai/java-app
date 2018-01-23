@@ -12,7 +12,7 @@
     <repositories>
         <repository>
         <id>Barclays maven proxy</id>
-        <url>http://ldtdsr001012974.etf.barcapetf.com:8081/repository/maven-central/</url>
+        <url>http://ldtdsr001012974.etf.barcapetf.com:8081/repository/maven-public/</url>
         </repository>
     </repositories>
 
