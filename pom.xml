@@ -19,8 +19,11 @@
         <repository>
         <id>project.local</id>
         <name>project</name>
+        <url>file:${basedir}/repo</url>
+        <!-- 
         <url>file:/var/lib/jenkins/workspace/maven-ci/repo</url>
-        <!-- <url>file:${project.basedir}/repo</url> -->
+        <url>file:${project.basedir}/repo</url> 
+        -->
     </repository>
     </repositories>
 
