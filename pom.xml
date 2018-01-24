@@ -10,12 +10,10 @@
     <packaging>war</packaging>
 
     <repositories>
-        <!--
         <repository>
         <id>Barclays maven proxy</id>
         <url>https://barcorpnexus.barcapint.com:8443/nexus/content/groups/barcorp/</url>
         </repository>
-        -->
         <repository>
         <id>project.local</id>
         <name>project</name>
