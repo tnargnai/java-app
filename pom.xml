@@ -10,19 +10,15 @@
     <packaging>war</packaging>
 
     <repositories>
-            <!-- <repository>
-                <id>Barclays maven proxy</id>
-                <url>https://barcorpnexus.barcapint.com:8443/nexus/content/groups/barcorp/</url>
-            </repository> -->
-        <repository>
+            <repository>
+                <id>maven proxy</id>
+                <url>https://barcorpnexus.barcapint.com:8443/nexus/content/groups/public/</url>
+            </repository>
+        <!-- <repository>
             <id>project.local</id>
             <name>project</name>
             <url>file:${basedir}/repo</url>
-            <!-- 
-            <url>file:/var/lib/jenkins/workspace/maven-ci/repo</url>
-            <url>file:${project.basedir}/repo</url> 
-            -->
-        </repository>
+        </repository> -->
     </repositories>
 
      <pluginRepositories>
