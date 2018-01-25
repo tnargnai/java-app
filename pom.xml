@@ -10,20 +10,39 @@
     <packaging>war</packaging>
 
     <repositories>
-        <!-- <repository>
-        <id>Barclays maven proxy</id>
-        <url>https://barcorpnexus.barcapint.com:8443/nexus/content/groups/barcorp/</url>
-        </repository> -->
+            <!-- <repository>
+                <id>Barclays maven proxy</id>
+                <url>https://barcorpnexus.barcapint.com:8443/nexus/content/groups/barcorp/</url>
+            </repository> -->
         <repository>
-        <id>project.local</id>
-        <name>project</name>
-        <url>file:${basedir}/repo</url>
-        <!-- 
-        <url>file:/var/lib/jenkins/workspace/maven-ci/repo</url>
-        <url>file:${project.basedir}/repo</url> 
-        -->
-    </repository>
+            <id>project.local</id>
+            <name>project</name>
+            <url>file:${basedir}/repo</url>
+            <!-- 
+            <url>file:/var/lib/jenkins/workspace/maven-ci/repo</url>
+            <url>file:${project.basedir}/repo</url> 
+            -->
+        </repository>
     </repositories>
+
+     <pluginRepositories>
+        <pluginRepository>
+            <id>barcorp</id>
+            <url>https://barcorpnexus.barcapint.com:8443/nexus/content/groups/barcorp/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>codehaus</id>
+            <url>http://nykpsr11075:8081/nexus/service/local/repositories/codehaus.org</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>codehaus</id>
+            <url>http://nykpsr11075:8081/nexus/service/local/repositories/codehaus.org</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>apache</id>
+            <url>http://nykpsr11076:8081/nexus/service/local/repositories/apache-snapshots</url>
+        </pluginRepository> 
+    </pluginRepositories>
 
     <properties>
 
