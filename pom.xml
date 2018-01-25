@@ -35,10 +35,6 @@
             <url>http://nykpsr11075:8081/nexus/service/local/repositories/codehaus.org</url>
         </pluginRepository>
         <pluginRepository>
-            <id>codehaus</id>
-            <url>http://nykpsr11075:8081/nexus/service/local/repositories/codehaus.org</url>
-        </pluginRepository>
-        <pluginRepository>
             <id>apache</id>
             <url>http://nykpsr11076:8081/nexus/service/local/repositories/apache-snapshots</url>
         </pluginRepository> 
